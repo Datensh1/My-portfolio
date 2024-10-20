@@ -250,3 +250,39 @@ margin-right: 0%;
   font-size: 5rem;
 }
 /* hover effects */
+
+/* media queries */
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+  #About-me h2{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 0%;
+    font-size: 1.525rem;
+    color: #89CFF0;
+  }
+  #About-me  p{
+  position: absolute;
+  font-size: 1.2rem;
+    margin-left: 40%;
+    margin-right: 20%;
+  }
+  .line{height: 2px;
+    width: 100px;
+  background-color: white;
+  position: absolute; top: 4%; left: 7%;
+  }
+  
+  .line-1{height: 2px;
+    width: 100px;
+  background-color: white;
+  position: absolute; top: 2%; left: 5%;
+  }
+  .line-3{height: 2px;
+    width: 100px;
+  background-color: white;
+  position: absolute; top: 2%; left: 6%;
+  }
+  .proj{
+   margin-left: 15%;
+  }
+}

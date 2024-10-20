@@ -24,10 +24,10 @@ function App() {
   <div className='icons'>
 
  <a href='https://www.facebook.com/profile.php?id=100088040026992'><img className='fb' src={fb} alt="Logo" /></a>
-<a href=''><img className='github' src={github} alt="Logo" /></a>
+<a href='https://github.com/Datensh1'><img className='github' src={github} alt="Logo" /></a>
 <img className='lightmode' src={lightmode} alt="Logo" />
-<a href=''><img className='linkedin' src={linkedin} alt="Logo" /></a>
-<a href=''><img className='ig' src={ig} alt="Logo" /></a>
+<a href='https://www.linkedin.com/in/vincent-paul-berlas-b48256334/'><img className='linkedin' src={linkedin} alt="Logo" /></a>
+<a href='https://www.instagram.com/vp_is_vncntpl/'><img className='ig' src={ig} alt="Logo" /></a>
 </div>
 </div>
 
@@ -88,6 +88,7 @@ function App() {
 <section id='Projects'>
 <h1>Projects</h1>
 <div className='line-3'></div>
+<div className='proj'>
 <div className='left-side'>  
   <img className='proj-1' src={jrvm} alt="Logo" />
   <h1>JRVM ANIME WEBSITE</h1> 
@@ -104,6 +105,7 @@ function App() {
   
   
      <img className='proj-2' src={fl} alt="Logo" /></div>
+     </div>
 </section>
 <footer>
   <div className='line-2'></div>
