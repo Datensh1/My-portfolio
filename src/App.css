@@ -52,14 +52,14 @@ right:  0;}
 .Main h1{font-size: 4.5rem;}
 .Main h2{
   font-size: 5rem;
-  /* Ensure the text block fits its content */
+  
   background: linear-gradient(90deg, rgba(137,207,240,1) 0%, rgba(137,207,240,1) 35%, rgba(255,255,255,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  background-size: 100%; /* Ensures the gradient scales with text */
-  line-height: 1; /* Adjust if text appears cropped vertically */}
+  background-size: 100%; 
+  line-height: 1; }
 #About-me{margin-top: 30%;}
 #About-me h1{
   background: linear-gradient(90deg, rgba(137,207,240,1) 0%, rgba(137,207,240,1) 35%, rgba(234,244,248,1) 100%);
@@ -67,7 +67,7 @@ right:  0;}
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  background-size: 100%; /* Ensures the gradient scales with text */
+  background-size: 100%; 
 
 }
 a{text-decoration: none; color: white;}
