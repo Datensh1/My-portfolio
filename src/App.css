@@ -243,12 +243,6 @@ margin-right: 0%;
   font-size: 8px;
   font-weight: lighter;
 }
-.btt{
-  background-color: red;
-
-  border-radius: 5px;
-  font-size: 5rem;
-}
 /* hover effects */
 
 /* media queries */
@@ -286,3 +280,175 @@ margin-right: 0%;
    margin-left: 15%;
   }
 }
+@media(max-width: 480px) {
+  body{
+    
+    margin-left: 10%;
+    
+  }
+  .contact-right{ background-color: white;
+    position: absolute;
+    right: -65%;
+    }
+    .Main p{font-size: 1.125rem;
+}
+.Main h1{font-size: 2.5rem;}
+.Main h2{font-size: 2.5rem;}
+.pic{width: 300px;
+  margin-top:10% ;
+height: 350px;}
+.text-content{position: absolute;
+left: 80%;
+top: 50%;
+}
+#About-me h2{
+
+  margin-right: -210%;
+  font-size: 1.225rem;
+  color: #89CFF0;
+}
+#About-me  p{
+
+  
+  margin-right: -200%;
+}
+.line{height: 2px;
+  width: 100px;
+background-color: white;
+position: absolute; top: 3%; left: 32%;
+}
+
+.line-1{height: 2px;
+  width: 100px;
+background-color: white;
+position: absolute; top:1.9%; left:13%;
+}
+.line-3{height: 2px;
+  width: 100px;
+background-color: white;
+position: absolute; top: 1.5%; left: 28%;
+}
+#Skills{
+  margin-top: 30%;
+  margin-right: -75%;
+  position: relative;
+}
+
+#Projects{
+  margin-top: 150px;
+  position: relative;
+}
+#Projects h1{
+
+  color: #89CFF0;
+}
+
+
+.left-side p{
+ 
+  font-size: 1rem;
+  top: 24%;
+  left: 90%;
+}
+.left-side h1{
+    font-size: 1rem; 
+    top:20%;
+    left: 90%;
+}
+.left-side img{
+  width: 700px;
+  height: 600px;
+  
+}
+.right-side{
+  position: relative;
+
+margin-right: 100%;
+}
+.right-side h1 {
+  display: inline-block;
+  position: absolute;
+  
+  width: 345px;
+  font-size: 1rem;
+  height: 200px;
+  top: 40%;
+  
+  margin-left: 370px;
+  color: #89CFF0;
+}
+.right-side p {
+  font-size: 1rem;
+
+margin-left: 370px;
+top: 45%;
+
+}
+
+.right-side img{
+  width: 500px;
+  height: 500px;
+margin-top: -40px;
+margin-left: -100px;
+}
+.line-2{
+  margin-left: 33%;
+  width: 100%;
+}
+ footer h1 {
+   margin-left:32%;
+   margin-right: -30%;
+   margin-top: 5%;
+   font-size: 0.825rem;
+ }
+
+}
+@media(max-width: 430px) {
+  body{
+    
+    margin-left: 10%;
+    
+  }
+  .contact-right{ background-color: white;
+    position: absolute;
+    right: -75%;
+    }
+    .Main p{font-size: 1.100rem;
+}
+.Main h1{font-size: 2.2rem;}
+.Main h2{font-size: 2.2rem;}
+
+
+#Skills{
+  margin-top: 30%;
+  margin-right: -65%;
+  position: relative;
+}
+.skillset h1, .skillset2 h1{
+  
+  font-size: 1.200rem;
+}
+.right-side h1 {
+
+  margin-left: 330px;
+  
+}
+.right-side p {
+
+margin-left: 330px;
+
+}
+
+.line-2{
+  margin-left: 35%;
+  width: 110%;
+}
+ footer h1 {
+   margin-left:30%;
+   margin-right: -50%;
+   margin-top: 5%;
+   font-size: 0.825rem;
+ }
+
+}
+
