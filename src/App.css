@@ -252,7 +252,7 @@ margin-right: 0%;
 /* hover effects */
 
 /* media queries */
-@media(min-width: 1920px)  {
+@media(min-width: 1920px) {
   #About-me h2{
     margin-top: 5%;
     margin-left: 40%;
